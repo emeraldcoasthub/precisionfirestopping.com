@@ -1,4 +1,5 @@
 <template>
+<div id="home">
   <b-container>
     <b-carousel 
       id="carousel1"
@@ -20,14 +21,35 @@
       <b-carousel-slide img-src="./slides/slide4.jpg"></b-carousel-slide>
     </b-carousel>
   </b-container>
+  <Boxes/>
+</div>
 </template>
 
 <script>
+import Boxes from '@/components/Boxes.vue';
+
 export default {
+  components: {
+    Boxes
+  },
   data () {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
+      boxes: [
+        {
+          title: 'Fire Stopping',
+          text: 'How does it work?'
+        },
+        {
+          title: 'Our Services',
+          text: 'Full range of firestopping'
+        },
+        {
+          title: 'Bid Request',
+          text: 'Inexpensive peace of mind'
+        },
+      ]
     }
   },
   methods: {
