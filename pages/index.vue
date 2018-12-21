@@ -21,7 +21,11 @@
       <b-carousel-slide img-src="./slides/slide4.jpg"></b-carousel-slide>
     </b-carousel>
   </b-container>
-  <Boxes/>
+  <b-container>
+    <b-row>
+      <Boxes v-for="box in boxes" v-bind:key="box.title" :title="box.title" :text="box.text" :link="box.link" />
+    </b-row>
+  </b-container>
 </div>
 </template>
 
@@ -39,15 +43,18 @@ export default {
       boxes: [
         {
           title: 'Fire Stopping',
-          text: 'How does it work?'
+          text: 'How does it work?',
+          link: '/test'
         },
         {
           title: 'Our Services',
-          text: 'Full range of firestopping'
+          text: 'Full range of firestopping',
+          link: ''
         },
         {
           title: 'Bid Request',
-          text: 'Inexpensive peace of mind'
+          text: 'Inexpensive peace of mind',
+          link: ''
         },
       ]
     }
