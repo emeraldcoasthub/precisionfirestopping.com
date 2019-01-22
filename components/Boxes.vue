@@ -2,13 +2,13 @@
   <b-col>
     <b-card 
     :title="title"
-    class="text-center mt-5">
+    class="text-center mb-5">
       <p class="card-text">
         {{ text }}
       </p>
       <b-button
       :href="link"
-      variant="danger"
+      variant="primary"
       >Find out more</b-button>
     </b-card>
   </b-col>
@@ -21,7 +21,6 @@ export default {
     'title',
     'text',
     'link'
-  ],
-  data() {}
+  ]
 }
 </script>
