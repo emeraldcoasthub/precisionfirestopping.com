@@ -4,7 +4,7 @@
     <h1 class="text-center mt-5 mb-5">{{ pageTitle }}</h1>
     <b-breadcrumb :items="items" />
     <b-row>
-      <b-col cols="8">
+      <b-col cols="12" md="8">
         <h2>Life Safety Is Our Goal</h2>
         <p>
           Precision Firestopping is a family owned and operated company with over 10 years experience 
@@ -16,15 +16,15 @@
           We are committed to our clients in providing high quality service, price and product. 
           You will save time and money by letting us navigate this process for you.
         </p>
-        <b-row class="mt-2">
+        <div class="mt-2">
           <ul>
             <li v-for="list in lists" v-bind:key="list.id">{{ list.list }}</li>
           </ul>
-        </b-row>
-        <b-row class="mt-2">
+        </div>
+        <div class="mt-2">
           <h3>Thought Penetration Firestopping</h3>
           <ul>
-            <li> Systems Piping</li>
+            <li>Systems Piping</li>
             <li>Through-penetrations are our specialty. Precision Firestopping can provide any types of systems or "Engineering Judgments" necessary to complete the most complicated projects.</li>
             <li>Single and multiple rigid and flex conduit</li>
             <li>Buss duct</li>
@@ -43,9 +43,9 @@
               fully encapsulated, wrap systems. These systems are mandated by code as 
               gypsum shafts cannot pass the testing.</li>
           </ul>
-        </b-row>
+        </div>
       </b-col>
-      <b-col>
+      <b-col cols="12" md="4">
         <h3>Who We Are</h3>
         <p>
           We are Servicing the Florida Panhandle and surrounding areas. If you would like for us to 

@@ -46,7 +46,7 @@ export default {
         },
         {
           text: 'Contact',
-          href: '/contactr'
+          href: '/contact'
         }
       ]
     }
