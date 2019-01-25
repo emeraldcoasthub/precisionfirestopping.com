@@ -17,6 +17,7 @@
             </b-nav-item-dropdown>
             <b-nav-item href="/contact">Contact</b-nav-item>
             <b-nav-item href="/services">Services</b-nav-item>
+            <b-nav-item href="/safety">Safety</b-nav-item>
           </b-navbar-nav>
 
       </b-collapse>
