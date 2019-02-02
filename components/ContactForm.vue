@@ -18,7 +18,7 @@
         <label class="sr-only" for="message">Message</label>
         <textarea class="form-control" id="message" placeholder="Message" rows="4"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      <input class="form-button btn btn-primary mt-3" type="submit" value="Submit"/>
     </form>
   </section>
 </template>
