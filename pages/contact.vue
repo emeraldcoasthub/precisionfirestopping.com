@@ -23,6 +23,7 @@
       <b-col>
         <h2>Contact Form</h2>
         <p><strong>Please do not submit bit requests here. You can find that <a href="bid-request">here</a>.</strong> Just fill out this form and we'll be in touch.</p>
+        <contact-form/>
       </b-col>
     </b-row>
   </div>
@@ -30,11 +31,11 @@
 </template>
 
 <script>
-
+import ContactForm from '@/components/ContactForm.vue';
 
 export default {
   components: {
-
+    ContactForm
   },
   data () {
     return {
