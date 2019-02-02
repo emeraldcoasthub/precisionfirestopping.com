@@ -3,20 +3,20 @@
     <form name="contact" action="" method="POST" netlify data-netlify-honeypot="bot-field">
       <input type="hidden" name="contact" value="contact">
       <div class="form-group">
-        <input type="name" id="name" class="form-control" required placeholder="Enter name">
+        <input name="name" type="text" id="name" class="form-control" required placeholder="Enter name">
         <label for="name">First and last name</label>
       </div>
       <div class="form-group">
-        <input type="email" id="email" class="form-control" required placeholder="Enter email">
+        <input name="email" type="email" id="email" class="form-control" required placeholder="Enter email">
         <label for="email">Email address</label>
       </div>
       <div class="form-group">
-        <input type="phone" id="phone" class="form-control" required placeholder="Enter phone">
+        <input name="phone" type="phone" id="phone" class="form-control" required placeholder="Enter phone">
         <label for="phone">Phone number</label>
       </div>
       <div class="form-group-out">
         <label class="sr-only" for="message">Message</label>
-        <textarea class="form-control" id="message" placeholder="Message" rows="4"></textarea>
+        <textarea name="message" class="form-control" id="message" placeholder="Message" rows="4"></textarea>
       </div>
       <input class="form-button btn btn-primary mt-3" type="submit" value="Submit"/>
     </form>
