@@ -1,6 +1,6 @@
 <template>
   <section id="contact-form">
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
       <div class="form-group">
         <input type="name" id="name" class="form-control" required placeholder="Enter name">
         <label for="name">First and last name</label>
