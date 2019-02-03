@@ -1,6 +1,6 @@
 <template>
   <section id="contact-form">
-    <form name="contact" action="" method="POST" netlify data-netlify-honeypot="bot-field">
+    <form name="contact" action="/thank-you" method="POST" netlify data-netlify-honeypot="bot-field">
       <input type="hidden" name="contact" value="contact">
       <div class="form-group">
         <input name="name" type="text" id="name" class="form-control" required placeholder="Enter name">
@@ -28,10 +28,11 @@
 export default {
   data() {
     return {
-      thankYou: '/'
+
     }
-  },
+  }
 }
+
 </script>
 
 <style>

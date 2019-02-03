@@ -18,7 +18,7 @@
             <b-nav-item exact to="/contact">Contact</b-nav-item>
             <b-nav-item exact to="/services">Services</b-nav-item>
             <b-nav-item exact to="/safety">Safety</b-nav-item>
-            <b-nav-item exact to="/bid-request">Safety</b-nav-item>
+            <b-nav-item exact to="/bid-request">Bid Request</b-nav-item>
           </b-navbar-nav>
 
       </b-collapse>

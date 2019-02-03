@@ -60,17 +60,17 @@ export default {
         {
           title: 'Fire Stopping',
           text: 'How does it work?',
-          link: '/test'
+          link: '/firestopping'
         },
         {
           title: 'Our Services',
           text: 'Full range of firestopping',
-          link: ''
+          link: '/services'
         },
         {
           title: 'Bid Request',
           text: 'Inexpensive peace of mind',
-          link: ''
+          link: '/bid-request'
         },
       ],
       section: [
