@@ -58,6 +58,18 @@ export default {
   components: {
 
   },
+  head () {
+    let title = this.pageTitle;
+    return {
+      title: title,
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `Learn about how we stop fires before they start. The firestops installed in your commercial building help to prevent the spread of flames, toxic smoke, and deadly gases to other areas of your building, thus not only protecting the other areas of your property, but also the occupants of the building. `
+        }
+      ]
+    }
+  },
   data () {
     return {
       pageTitle: 'About Firestopping',

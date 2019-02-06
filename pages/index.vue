@@ -52,8 +52,21 @@ export default {
     Section,
     WhyUs
   },
+  head () {
+    let title = this.pageTitle;
+    return {
+      title: title,
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `Precision Firestopping excels in all forms of firestopping in commercial construction. Our goal is to provide performance, product, and service that will consistently exceed our client expectations.`
+        }
+      ]
+    }
+  },
   data () {
     return {
+      pageTitle: 'Home',
       slide: 0,
       sliding: null,
       boxes: [

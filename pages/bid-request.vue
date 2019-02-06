@@ -134,6 +134,18 @@ export default {
   components: {
 
   },
+  head () {
+    let title = this.pageTitle;
+    return {
+      title: title,
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `Fill out this form if you're interested in our firestopping services.`
+        }
+      ]
+    }
+  },
   data () {
     return {
       pageTitle: 'Bid Request Form',

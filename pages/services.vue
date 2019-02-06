@@ -103,6 +103,18 @@ export default {
   components: {
 
   },
+  head () {
+    let title = this.pageTitle;
+    return {
+      title: title,
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `At Precision Firestopping we train all of our employees through manufacturer specifications and installation methods.`
+        }
+      ]
+    }
+  },
   data () {
     return {
       pageTitle: 'Services',

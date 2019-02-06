@@ -85,6 +85,18 @@ export default {
   components: {
 
   },
+  head () {
+    let title = this.pageTitle;
+    return {
+      title: title,
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `Precision Firestopping is a family owned and operated company with over 10 years experience in the commercial field of firestopping.`
+        }
+      ]
+    }
+  },
   data () {
     return {
       pageTitle: 'About Us',

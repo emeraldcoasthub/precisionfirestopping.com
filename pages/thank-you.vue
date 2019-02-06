@@ -7,3 +7,19 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head () {
+    return {
+      title: 'Thank you',
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `Thank you for contacting Precision Firestopping.`
+        }
+      ]
+    }
+  },
+}
+</script>

@@ -37,6 +37,18 @@ export default {
   components: {
     ContactForm
   },
+  head () {
+    let title = this.pageTitle;
+    return {
+      title: title,
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `Contact our team today with any questions you have.`
+        }
+      ]
+    }
+  },
   data () {
     return {
       pageTitle: 'Contact',

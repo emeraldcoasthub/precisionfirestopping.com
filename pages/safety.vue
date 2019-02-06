@@ -46,6 +46,18 @@ export default {
   components: {
 
   },
+  head () {
+    let title = this.pageTitle;
+    return {
+      title: title,
+      meta: [{
+          hid: `description`,
+          name: 'description',
+          content: `We work every day to assure safety for our employees in proper personal protective equipment (PPE) and proper tools for the job we are doing.`
+        }
+      ]
+    }
+  },
   data () {
     return {
       pageTitle: 'Safety',
