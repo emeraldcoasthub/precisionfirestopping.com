@@ -12,8 +12,7 @@ module.exports = {
     metaInfo: {
       meta: [
         { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: pkg.description }
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ],
     },
     link: [
@@ -44,7 +43,10 @@ module.exports = {
   */
   modules: [,
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-45533527-4'
+    }]
   ],
 
   /*

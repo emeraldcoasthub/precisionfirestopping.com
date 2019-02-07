@@ -1,5 +1,5 @@
 <template>
-  <b-col>
+  <b-col cols="12" md="4">
     <b-card 
     :title="title"
     class="text-center mb-5">

@@ -61,11 +61,22 @@ export default {
           name: 'description',
           content: `Precision Firestopping excels in all forms of firestopping in commercial construction. Our goal is to provide performance, product, and service that will consistently exceed our client expectations.`
         }
-      ]
+      ],
+      __dangerouslyDisableSanitizers: ['script'],
+      script: [{ innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json' }]
     }
   },
   data () {
     return {
+      structuredData: {
+        "@context" : "http://schema.org",
+        "@type" : "LocalBusiness",
+        "name" : "Precision Firestopping",
+        "image" : "https://d33wubrfki0l68.cloudfront.net/25332a4116a4d6f8b2dc8d6e16148f0053a154fa/4a0c2/_nuxt/img/3a76ada.png",
+        "telephone" : "850.897.0240",
+        "email" : "brannan@precisionfirestopping.com",
+        "url" : "https://precisionfirestopping.com/"
+      },
       pageTitle: 'Home',
       slide: 0,
       sliding: null,
