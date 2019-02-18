@@ -6,7 +6,7 @@
     <b-row>
       <b-col cols="4">
         <h2>Contact Info</h2>
-        <p><strong>Thank you for your interesting in Precision Firestopping.</strong></p>
+        <p><strong>Thank you for your interest in Precision Firestopping.</strong></p>
         <p>
           We are a family owned and operated company with focus on fire prevention in the 
           commercial industry of all construction. We regularly service the Florida panhandle 
