@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.0.3",
+    "@nuxtjs/google-analytics": "^2.1.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
