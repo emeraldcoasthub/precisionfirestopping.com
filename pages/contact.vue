@@ -44,7 +44,7 @@ export default {
       meta: [{
           hid: `description`,
           name: 'description',
-          content: `Contact our team today with any questions you have.`
+          content: `Contact our team today with any questions.`
         }
       ]
     }
