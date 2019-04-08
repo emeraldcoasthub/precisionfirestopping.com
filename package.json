@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.2.0",
     "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^2.0.0-rc.16",
+    "bootstrap-vue": "^2.0.0-rc.17",
     "cross-env": "^5.2.0",
     "express": "^4.16.3",
     "nuxt": "^2.5.1"
