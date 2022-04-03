@@ -48,13 +48,7 @@ module.exports = {
   modules: [
     ,
     // Doc: https://bootstrap-vue.js.org/docs/
-    "bootstrap-vue/nuxt",
-    [
-      "@nuxtjs/google-analytics",
-      {
-        id: "UA-45533527-4"
-      }
-    ]
+    "bootstrap-vue/nuxt"
   ],
 
   /*
