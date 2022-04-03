@@ -1,42 +1,41 @@
-const pkg = require('./package')
+const pkg = require("./package");
 
 module.exports = {
-  mode: 'universal',
-
   /*
    ** Headers of the page
    */
   head: {
-    title: 'Firestopping Solutions',
-    titleTemplate: '%s • Precision Firestopping',
-    meta: [{
-        charset: 'utf-8'
+    title: "Firestopping Solutions",
+    titleTemplate: "%s • Precision Firestopping",
+    meta: [
+      {
+        charset: "utf-8"
       },
       {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        name: "viewport",
+        content: "width=device-width, initial-scale=1"
       }
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+    link: [
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/favicon.ico"
+      }
+    ]
   },
 
   /*
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#fff'
+    color: "#fff"
   },
 
   /*
    ** Global CSS
    */
-  css: [
-    '@/assets/overwrites.scss'
-  ],
+  // css: ["@/assets/overwrites.scss"],
 
   /*
    ** Plugins to load before mounting the App
@@ -46,12 +45,16 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [,
+  modules: [
+    ,
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-45533527-4'
-    }]
+    "bootstrap-vue/nuxt",
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-45533527-4"
+      }
+    ]
   ],
 
   /*
@@ -61,8 +64,6 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
-
-    }
+    extend(config, ctx) {}
   }
-}
+};

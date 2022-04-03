@@ -1,8 +1,7 @@
 {
   "name": "precisionfirestopping.com",
   "version": "1.0.0",
-  "description": "My classy Nuxt.js project",
-  "author": "Patrick Black Jr",
+  "author": "Patrick Black",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
@@ -12,15 +11,13 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.2.0",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^5.1.3",
     "bootstrap-vue": "^2.0.0-rc.22",
-    "cross-env": "^5.2.0",
+    "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "nuxt": "^2.8.1"
   },
   "devDependencies": {
-    "node-sass": "^4.12.0",
-    "nodemon": "^1.19.1",
-    "sass-loader": "^7.1.0"
+    "nodemon": "^2.0.15"
   }
 }
