@@ -2,9 +2,9 @@
   <section id="contact-form">
     <form
       name="contact"
-      action="/thank-you"
-      method="POST"
-      netlify
+      action="thank-you"
+      method="post"
+      data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="contact" value="contact" />
