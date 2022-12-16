@@ -60,4 +60,5 @@ module.exports = {
     },
     extend(config, ctx) {},
   },
+  target: 'static',
 }
