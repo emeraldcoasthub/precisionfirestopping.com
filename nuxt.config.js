@@ -1,35 +1,35 @@
-const pkg = require("./package");
+const pkg = require('./package')
 
 module.exports = {
   /*
    ** Headers of the page
    */
   head: {
-    title: "Firestopping Solutions",
-    titleTemplate: "%s • Precision Firestopping",
+    title: 'Firestopping Solutions',
+    titleTemplate: '%s • Precision Firestopping',
     meta: [
       {
-        charset: "utf-8"
+        charset: 'utf-8',
       },
       {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1"
-      }
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
+      },
     ],
     link: [
       {
-        rel: "icon",
-        type: "image/x-icon",
-        href: "/favicon.ico"
-      }
-    ]
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico',
+      },
+    ],
   },
 
   /*
    ** Customize the progress-bar color
    */
   loading: {
-    color: "#fff"
+    color: '#fff',
   },
 
   /*
@@ -48,16 +48,16 @@ module.exports = {
   modules: [
     ,
     // Doc: https://bootstrap-vue.js.org/docs/
-    "bootstrap-vue/nuxt"
+    'bootstrap-vue/nuxt',
   ],
 
   /*
    ** Build configuration
    */
   build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
-  }
-};
+    output: {
+      hashFunction: 'xxhash64',
+    },
+    extend(config, ctx) {},
+  },
+}

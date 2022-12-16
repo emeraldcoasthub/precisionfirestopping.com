@@ -14,9 +14,11 @@
     "bootstrap-vue": "^2.0.0-rc.22",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
-    "nuxt": "^2.8.1"
+    "nuxt": "^2.8.1",
+    "vue": "2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "webpack": "^5.75.0"
   }
 }

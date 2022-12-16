@@ -10,15 +10,16 @@
 
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Thank you',
-      meta: [{
+      meta: [
+        {
           hid: `description`,
           name: 'description',
-          content: `Thank you for contacting Precision Firestopping.`
-        }
-      ]
+          content: `Thank you for contacting Precision Firestopping.`,
+        },
+      ],
     }
   },
 }

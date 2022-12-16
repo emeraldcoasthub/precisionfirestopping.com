@@ -2,11 +2,8 @@
   <b-container>
     <b-row>
       <b-col>
-        <b-card
-          title="Why us?"
-          class="mb-3"
-          >
-          <li v-for="item in items" v-bind:key="item.id" >{{ item.item }}</li>
+        <b-card title="Why us?" class="mb-3">
+          <li v-for="item in items" v-bind:key="item.id">{{ item.item }}</li>
         </b-card>
       </b-col>
     </b-row>
@@ -15,11 +12,9 @@
 
 <script>
 export default {
-  name: "Section",
-  props: [
-    'title'
-  ],
-  data () {
+  name: 'Section',
+  props: ['title'],
+  data() {
     return {
       items: [
         { id: 1, item: 'Family owned and operated' },
@@ -30,9 +25,9 @@ export default {
         { id: 6, item: 'Quality workmanship' },
         { id: 7, item: 'Team approach' },
         { id: 8, item: 'Project management excellence' },
-        { id: 9, item: 'On time and on budget' }
-      ]
+        { id: 9, item: 'On time and on budget' },
+      ],
     }
-  }
+  },
 }
 </script>

@@ -7,7 +7,7 @@
       <b-col class="mt-3">
         <h2>Our Philosophy</h2>
         <p class="mt-3">
-          We work every day to assure safety for our employees in proper personal 
+          We work every day to assure safety for our employees in proper personal
             protective equipment (PPE) and proper tools for the job we are doing.
         </p>
         <h2 class="mt-5">Our Safety Team</h2>
@@ -18,10 +18,10 @@
         </p>
         <h2 class="mt-5">Safety Measures</h2>
         <p class="mt-3">
-          At Precision Firestopping, we want all of our employees and any other 
-          employees on the job to go home safely to their families every day. 
-          We take pride in our obligation to our employees and our clients to 
-          steadily improve our safety measures on the job. We take safety very 
+          At Precision Firestopping, we want all of our employees and any other
+          employees on the job to go home safely to their families every day.
+          We take pride in our obligation to our employees and our clients to
+          steadily improve our safety measures on the job. We take safety very
           seriously. Every employee is trained with the latest OSHA standards.
         </p>
         <h4 class="mt-3">Other Safety Measures</h4>

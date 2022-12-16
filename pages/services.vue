@@ -134,34 +134,34 @@
 export default {
   components: {},
   head() {
-    let title = this.pageTitle;
+    let title = this.pageTitle
     return {
       title: title,
       meta: [
         {
           hid: `description`,
-          name: "description",
-          content: `At Precision Firestopping we train all of our employees through manufacturer specifications and installation methods.`
-        }
-      ]
-    };
+          name: 'description',
+          content: `At Precision Firestopping we train all of our employees through manufacturer specifications and installation methods.`,
+        },
+      ],
+    }
   },
   data() {
     return {
-      pageTitle: "Services",
+      pageTitle: 'Services',
       items: [
         {
-          text: "Home",
-          href: "/"
+          text: 'Home',
+          href: '/',
         },
         {
-          text: "Services",
-          href: "/services"
-        }
-      ]
-    };
-  }
-};
+          text: 'Services',
+          href: '/services',
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style></style>
