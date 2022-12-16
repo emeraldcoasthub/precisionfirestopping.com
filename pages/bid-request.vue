@@ -5,7 +5,8 @@
       <b-breadcrumb :items="items" />
       <b-row class="justify-content-center">
         <b-col cols="12" md="6" class="mt-3">
-          <form name="bid-request" action="/thank-you" method="POST" netlify>
+          <form name="bid-request" action="/thanks" method="POST" netlify>
+            <input type="hidden" name="form-name" value="bid-request" />
             <div class="form-group">
               <input
                 class="form-control"

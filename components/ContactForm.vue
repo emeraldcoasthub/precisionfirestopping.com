@@ -2,12 +2,12 @@
   <section id="contact-form">
     <form
       name="contact"
-      action="thank-you"
+      action="/thanks"
       method="post"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
-      <input type="hidden" name="contact" value="contact" />
+      <input type="hidden" name="form-name" value="contact" />
       <div class="form-group">
         <input
           name="name"
