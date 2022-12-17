@@ -32,6 +32,7 @@
             <li>Bundling Cables to tie off (keep cables off ceiling grid)</li>
             <li>Smoke, Sound &amp; Air Movement Seals</li>
             <li>Open Junction Box Closure</li>
+            <li>All Types of Draft Stopping</li>
             <li>
               All other forms of Specialty Firestopping that is required to
               carry Fire Ratings for Wall/Floors in Commercial Construction.

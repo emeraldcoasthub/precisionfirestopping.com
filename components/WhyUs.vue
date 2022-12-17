@@ -18,7 +18,7 @@ export default {
     return {
       items: [
         { id: 1, item: 'Family owned and operated' },
-        { id: 2, item: '10+ years Experience' },
+        { id: 2, item: '20+ years Experience' },
         { id: 3, item: 'Competitive pricing' },
         { id: 4, item: 'Wide range of expertise' },
         { id: 5, item: 'Properly trained installers' },

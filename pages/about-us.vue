@@ -8,8 +8,8 @@
           <h2>Life Safety Is Our Goal</h2>
           <p>
             Precision Firestopping is a family owned and operated company with
-            over 10 years experience in the commercial field of firestopping.
-            Our goal is to provide performance, product and service that will
+            20+ years experience in the commercial field of firestopping. Our
+            goal is to provide performance, product and service that will
             consistently exceed our client expectations. In the area of
             Commercial Construction, we specialize in firestopping, acoustical
             sealants, all caulking and weather proofing. We have extensive
