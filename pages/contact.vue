@@ -28,7 +28,7 @@
               brannan@precisionfirestopping.com</a
             >
           </p>
-          <h3>Office Administratort</h3>
+          <h3>Office Administrator</h3>
           <p><strong>Melissa Burdette</strong></p>
           <p>Phone: 850.687.9087</p>
           <p>
