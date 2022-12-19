@@ -32,6 +32,7 @@
             <li>Bundling Cables to tie off (keep cables off ceiling grid)</li>
             <li>Smoke, Sound &amp; Air Movement Seals</li>
             <li>Open Junction Box Closure</li>
+            <li>All Types of Draft Stopping</li>
             <li>
               All other forms of Specialty Firestopping that is required to
               carry Fire Ratings for Wall/Floors in Commercial Construction.
@@ -134,34 +135,34 @@
 export default {
   components: {},
   head() {
-    let title = this.pageTitle;
+    let title = this.pageTitle
     return {
       title: title,
       meta: [
         {
           hid: `description`,
-          name: "description",
-          content: `At Precision Firestopping we train all of our employees through manufacturer specifications and installation methods.`
-        }
-      ]
-    };
+          name: 'description',
+          content: `At Precision Firestopping we train all of our employees through manufacturer specifications and installation methods.`,
+        },
+      ],
+    }
   },
   data() {
     return {
       pageTitle: "Services",
       items: [
         {
-          text: "Home",
-          href: "/"
+          text: 'Home',
+          href: '/',
         },
         {
-          text: "Services",
-          href: "/services"
-        }
-      ]
-    };
-  }
-};
+          text: 'Services',
+          href: '/services',
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style></style>
